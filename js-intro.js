@@ -6,36 +6,20 @@
 var mantra = "Be the dev"
 
 // 1a. Write the code that determines if there is a 'B' in mantra.
-    var mantra = "Be the dev";
-    var newMantra = mantra.includes("B");
 
-console.log(newMantra);
+
 
 // 1b. Write the code that determines if there is an 'x' in mantra.
-    var mantra = "Be the dev"
-    var newMantra2 = mantra.includes("x");
-    
-    console.log(newMantra2);
+
 
 
 // 1c. Write the code that determines if there is a 'v' in mantra.
-    var mantra = "Be the dev"
-    var newMantra3 = mantra.includes("v");
-    
-    console.log(newMantra3);
 
 
 
 // 1d. STRETCH: Write a function that can take two arguments - a string and a letter and returns a sentence telling the user if the letter exists within the string.
-var str = "Let's code"
-function checker(str){
-    if(str = str.includes("o")){
-        return "it includes the selected letter"
-    }else{
-        return "it does not include the selected letter"
-    }
-}
-console.log(checker(str));
+
+
 
 // ------------------------------ Consider the following variables:
 
@@ -43,41 +27,18 @@ var myDog = "Snoopy"
 var myCat = "Garfield"
 
 // 2a. Create a function that returns the longer of the two variables. Expected output: "Garfield"
-var myDog = "Snoopy"
-var myCat = "Garfield"
 
-function longer(myDog, myCat){
-    if(myDog.length > myCat.length){
-        console.log("Snoopy")
-    }else if (myDog.length < myCat.length){
-        console.log ("Garfield")
-    }
-}
-longer(myDog,myCat);
+
 
 
 // 2b. Create a function that takes in two arguments and returns an array containing the two variables. Expected output: ["Snoopy", "Garfield"]
-var myDog = "Snoopy"
-var myCat = "Garfield"
-
-function arrAnimals(){
-    var array = (myDog.concat(" ", myCat))
-    console.log(array.split(" "))
-    
-}
-console.log(arrAnimals())
 
 
 
 
 // 2c. STRETCH: Write a function that returns the two variables in all lowercase letters. Expected output: "snoopy garfield"
-var myDog = "Snoopy"
-var myCat = "Garfield"
 
-function pets(){
-    return (myDog.concat(" ", myCat))
-}
-console.log(pets().toLowerCase());
+
 
 
 // ------------------------------ Consider the following variable:
@@ -85,26 +46,12 @@ console.log(pets().toLowerCase());
 var myMessage = "Learning is fun!"
 
 // 3a. Write the code that logs each letter of the message using a for loop.
-var myMessage = "Learning is fun!"
- function letter(){
-     for (var i = 0; i < myMessage.length; i++) {
-         console.log(myMessage[i])
-     }
- }
- console.log(letter())
+
 
 
 // 3b. Write the code that logs each letter of the message using map.
-var myMessage = "Learning is fun!"
 
-const message = (array) => {
-    let newMessage = []
-    for (var i = 0; i < myMessage.length; i++) {
-        newMessage.push(array[i])
-    }
-    return newMessage
-}
-console.log(myMessage.split("").map(message));
+
 
 // 3c. STRETCH: Write the code that logs each letter of the message using a while loop.
 
@@ -121,26 +68,14 @@ var testString = "thisisateststring"
 
 // 4a. Write a function that takes the variable as an argument and returns the string without vowels. Expected output: "thsstststrng"
 
-var testString = "thisisateststring"
 
-function remove(str){
-    return testString.replace(/[aeiou]/g, '');
-}
 
-console.log(remove(str))
+
+
 // 4b. STRETCH: Update your function to return an error message if the variable is not a string. Copy and paste your function to add these changes.
 
 
-var testString = "thisisateststring"
 
-function noString (str){
-    if(typeof str !== "string"){
-        return "error"
-    }
-    return testString.replace(/[aeiou]/g, '');
-}
-
-console.log(noString())
 
 
 
@@ -150,34 +85,12 @@ var toonimals = [ {name: "Itchy", animal: "mouse"}, {name: "Stimpy", animal: "ca
 
 // 5a. Write a function that takes in the toonimals array as an argument and returns an array with only the toon objects that are cats. Expected output: [ { name: "Stimpy", animal: "cat" }, { name: "Scratchy", animal: "cat" }, { name: "Felix", animal: "cat" } ]
 
-var toonimals = [ {name: "Itchy", animal: "mouse"}, {name: "Stimpy", animal: "cat"}, {name: "Daffy", animal: "duck"}, {name: "Scratchy", animal: "cat"}, {name: "Ren", animal: "dog"}, {name: "Felix", animal: "cat"}]
 
-catsOnly = (array) => {
-    const felines = array.filter(value => value.animal === "cat")
-    return felines
-}
-console.log(catsOnly(toonimals))
 
 
 //5b. Write a function that returns only the names of all the non-cats. Expected output: "Itchy" "Daffy" "Ren"
-var toonimals = [ {name: "Itchy", animal: "mouse"}, {name: "Stimpy", animal: "cat"}, {name: "Daffy", animal: "duck"}, {name: "Scratchy", animal: "cat"}, {name: "Ren", animal: "dog"}, {name: "Felix", animal: "cat"}]
 
-nonCats = (array) => {
-    const onlyAnimals = array.filter(value => value.animal !== "cat")
-    return onlyAnimals
-}
-console.log(nonCats(toonimals));
 
 
 
 //5c. STRETCH: Create a function that will print a sentence for every toon stating their name and their animal type. Use string interpolation. Expected output: "Itchy is a mouse" "Stimpy is a cat" "Daffy is a duck" "Scratchy is a cat" "Ren is a dog" "Felix is a cat"
-
-/*var toonimals = 
-    [{name: "Itchy", animal: "mouse"}, 
-    {name: "Stimpy", animal: "cat"}, 
-    {name: "Daffy", animal: "duck"}, 
-    {name: "Scratchy", animal: "cat"}, 
-    {name: "Ren", animal: "dog"}, 
-    {name: "Felix", animal: "cat"}]
-
-var animals = */

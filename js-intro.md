@@ -5,15 +5,15 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. What is a function? Why would you use one?
 
-  Your answer: A function is a task we give our computer to do, written in some form of coding language.
+  Your answer:
 
-  Researched answer: Function constructor creates functions which execute in the global scope only.(MDN)
+  Researched answer:
 
 
 
 2. List 5 examples of JavaScript array methods.
 
-  Your answer: .push, .pop, .shift, .unshift, indexOf()
+  Your answer:
 
   Researched answer:
 
@@ -21,16 +21,15 @@ Answer the following questions. First, without external resources. Challenge you
 
 3. Explain the difference between console.log() and return.
 
-  Your answer:console.log executes a task and anything after can still be executed , and return will execute task however anything after that wont be executed.
+  Your answer:
 
   Researched answer:
-return - returns execution to the caller with optional result
 
-console.log() - logs out information in console.
+
 
 4. In regards to functions, what is an argument? What is the difference between an argument and a variable?
 
-  Your answer: an argument is what you an function can take in and it can be another function as in a variable its a specific more of a number or "string"
+  Your answer:
 
   Researched answer:
 
@@ -38,7 +37,7 @@ console.log() - logs out information in console.
 
 5. Give a brief description of proper pair programming techniques. What are the rolls of each person?
 
-  Your answer: pair programming is a method of learning that consist of a driver and a person who navigates. And each of person switches off every so often
+  Your answer:
 
   Researched answer:
 
@@ -46,9 +45,9 @@ console.log() - logs out information in console.
 
 6. Give a brief description of JavaScript as if you were explaining it to someone who doesn't know anything about programming.
 
-  Your answer: Javascript is a programming language that helps application and wbesites run. 
+  Your answer:
 
 
 7. What is one thing we did in class this week you found helpful?  
 
-  Your answer: Everything i learned this week was helpful.
+  Your answer:
